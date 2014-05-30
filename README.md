@@ -1,10 +1,14 @@
 test task for elena ... 
 
+extract at webroot path:
 	git clone https://github.com/myorb/elenatest.git
 
-setup Mysql database via using sql elenatest.sql 
+setup Mysql database:
+	use elenatest.sql
+	and db connection at protected/config/main.php
 
-and setup db connection at protected/config/main.php
+set patht to yii framework:
+	in index.php
 
 this all )
 
